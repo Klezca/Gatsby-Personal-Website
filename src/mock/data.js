@@ -68,6 +68,15 @@ export const projectsData = [
     url: 'https://github.com/Klezca/dualstackVPC-ipv4-ipv6',
     repo: 'https://github.com/Klezca/dualstackVPC-ipv4-ipv6', // if no repo, the button will not show up
   },
+  {
+    id: uuidv1(),
+    img: 'project4.jpg',
+    title: 'Shell scripts installation reference',
+    info:
+      'A collection of installation scripts for me to reference when I need to reinstall something',
+    url: 'https://github.com/Klezca/public-scripts',
+    repo: 'https://github.com/Klezca/public-scripts', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
