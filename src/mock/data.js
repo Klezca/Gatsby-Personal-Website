@@ -82,8 +82,8 @@ export const projectsData = [
     img: 'project5.jpg',
     title: 'Personal Website',
     info: 'A personal website I developed for myself by using an existing template',
-    url: 'https://github.com/Klezca/public-scripts',
-    repo: 'https://github.com/Klezca/public-scripts', // if no repo, the button will not show up
+    url: 'https://normanwongcl.netlify.app/',
+    repo: 'https://github.com/Klezca/Gatsby-Personal-Website', // if no repo, the button will not show up
   },
 ];
 
