@@ -65,6 +65,7 @@ $ git remote remove origin
 Then you can install the dependencies either using NPM or Yarn:
 
 Using NPM:
+
 ```bash
 # Install dependencies
 $ npm install
@@ -72,7 +73,9 @@ $ npm install
 # Start development server
 $ gatsby develop
 ```
+
 Using Yarn:
+
 ```bash
 # Install dependencies
 $ yarn
@@ -200,17 +203,6 @@ export const footerData = {
 };
 ```
 
-### Required - Disable GitHub buttons
-
-Set `isEnabled` to `false` once you finish setup your portfolio.\
-By setting to `false` it will hide the GitHub stars/fork buttons
-
-```javascript
-export const githubButtons = {
-  isEnabled: true, // true is the default value
-};
-```
-
 ### Step 2 - STYLES
 
 Change the color theme of the website ( choose 2 colors to create a gradient ):
@@ -248,6 +240,7 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 
 ## Authors
 
+- **Norman Wong** - [https://github.com/Klezca](https://github.com/Klezca)
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
 ## Status

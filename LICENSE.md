@@ -1,5 +1,5 @@
 MIT License
-
+Copyright (c) 2020 Norman Wong
 Copyright (c) 2019 Jacobo Martínez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
