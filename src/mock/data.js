@@ -77,6 +77,14 @@ export const projectsData = [
     url: 'https://github.com/Klezca/public-scripts',
     repo: 'https://github.com/Klezca/public-scripts', // if no repo, the button will not show up
   },
+  {
+    id: uuidv1(),
+    img: 'project5.jpg',
+    title: 'Personal Website',
+    info: 'A personal website I developed for myself by using an existing template',
+    url: 'https://github.com/Klezca/public-scripts',
+    repo: 'https://github.com/Klezca/public-scripts', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
