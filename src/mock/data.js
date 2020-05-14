@@ -82,23 +82,13 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/norman-wong-chiew-look/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Klezca',
     },
   ],
 };
