@@ -22,11 +22,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Norman Wong Chiew Look Website`,
+        short_name: `Norman Wong Website`,
+        description: 'A personal website developed using a Gatsby Template',
+        lang: `en`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#02aab0`,
+        theme_color: `#264653`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },
