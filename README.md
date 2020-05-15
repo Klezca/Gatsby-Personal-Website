@@ -1,6 +1,6 @@
 # Gatsby-Personal-Website [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/Klezca/Gatsby-Personal-Website/blob/master/LICENSE.md)
 
-## A clean, beautiful and responsive portfolio template for Developers
+## Personal Website demo
 
 <h2 align="center">
   <img src="https://github.com/klezca/Gatsby-Personal-Website/blob/master/demo/demo.gif" alt="Gatsby Personal Website Demo GIF" width="600px" />
