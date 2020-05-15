@@ -88,37 +88,6 @@ Once your server has started, go to this url `http://localhost:8000/` and you wi
 
 ---
 
-## Instructions:
-
-### Step 1 - STRUCTURE
-
-Go to `/src/mock/data.js` and fill your information, they are 5 objects:
-
-### Hero Section
-
-```javascript
-export const heroData = {
-  title: '', // Hello, my name is
-  name: '', // John
-  subtitle: '', // I'm the Unknown Developer.
-  cta: '', // Know more
-};
-```
-
-### About Section
-
-**_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
-
-```javascript
-export const aboutData = {
-  img: 'profile.jpg', // put your profile image (recommended aspect radio: square)
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
-};
-```
-
 ## Others versions 👥
 
 [Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
