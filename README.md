@@ -1,4 +1,4 @@
-# Gatsby-Personal-Website [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/Klezca/Gatsby-Personal-Website/blob/master/LICENSE.md) ![GitHub stars](https://github.com/Klezca/Gatsby-Personal-Website) ![GitHub forks](https://github.com/Klezca/Gatsby-Personal-Website)
+# Gatsby-Personal-Website [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/Klezca/Gatsby-Personal-Website/blob/master/LICENSE.md)
 
 ## A clean, beautiful and responsive portfolio template for Developers
 
