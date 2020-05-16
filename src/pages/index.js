@@ -12,9 +12,15 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'NormanWongCL'}</title>
+        <title>{title || 'NormanWongCL Website'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Norman Wong Chiew Look Website'} />
+        <meta property="og:url" content="https://normanwongcl.com" />
+        <meta property="og:title" content={title || 'NormanWongCL Website'} />
+        <meta
+          name="description"
+          property="og:description"
+          content={description || 'Norman Wong Chiew Look Website'}
+        />
       </Helmet>
       <App />
     </>
