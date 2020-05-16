@@ -39,14 +39,28 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    // eslint-disable-next-line no-multi-str
+                    'Recent graduate with 1+ year of work experience \
+                  in two different Australian start-ups (Treiner and Shifra), \
+                  where I had hands on experience designing and building out AWS cloud networks and infrastructures \
+                  for Development, Staging and Production environment that are needed for existing Client-side SPA \
+                  or Server-side rendered (SSR) web application(s).'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    // eslint-disable-next-line no-multi-str
+                    'I have a broad knowledge and \
+                    hands-on experience in software development practices \
+                    (Agile, CI/CD, Continuous Deployment, secret management,\
+                    Gitflow workflow), Linux system administration, \
+                    network administration, database administration, security and storage in the AWS cloud.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    // eslint-disable-next-line no-multi-str
+                    "I'm basically the operations / infrastructure person \
+                    who write code to automate as much manual \
+                    process / work as possible."}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
