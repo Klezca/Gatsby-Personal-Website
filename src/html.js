@@ -29,7 +29,7 @@ export default function HTML({
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="512" />
         <meta property="og:image:height" content="512" />
-        <meta property="og:image:alt" content="Norman Wong Resume Screenshot" />
+        <meta property="og:image:alt" content="Norman Wong Chiew Look Logo" />
         {headComponents}
       </head>
       <body {...bodyAttributes}>
