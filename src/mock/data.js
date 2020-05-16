@@ -28,7 +28,7 @@ export const aboutData = {
   paragraphTwo:
     // eslint-disable-next-line no-multi-str
     'I have a broad knowledge and hands-on experience in software development practices \
-  (Agile, CI/CD, Continuous Deployment, secret management, Girflow workflow), Linux system administration, \
+  (Agile, CI/CD, Continuous Deployment, secret management, Gitflow workflow), Linux system administration, \
   network administration, database administration, security and storage in the AWS cloud. ',
   paragraphThree:
     "I'm basically the operations / infrastructure person who write code to automate as much manual process / work as possible.",

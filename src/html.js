@@ -19,6 +19,17 @@ export default function HTML({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="author" content="Norman Wong Chiew Look" />
+        <meta
+          name="keywords"
+          content="Norman Wong, DevOps Engineer, AWS Cloud Engineer, Australia"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.normanwongcl.com/icons/icon-512x512.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="512" />
+        <meta property="og:image:height" content="512" />
+        <meta property="og:image:alt" content="Norman Wong Chiew Look Logo" />
         {headComponents}
       </head>
       <body {...bodyAttributes}>
