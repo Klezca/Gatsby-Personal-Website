@@ -30,13 +30,19 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      # Install node dependencies, then run lint and build
-      - name: Install node dependencies
+      # Install node dependencies, then run lint
+      - name: Install node dependencies and run the linter
         run: |
           npm ci
           npm run lint
-          npm run build
+
+      - name: Build
+        run: npm run build
+
+      - name: Check path
+        run: |
           ls -a
+          pwd
 
       - name: Upload Build Artifact for Test job
         uses: actions/upload-artifact@v1
