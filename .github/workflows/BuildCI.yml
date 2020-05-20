@@ -57,5 +57,4 @@ jobs:
 
       - name: Verify no unstaged changes
         shell: bash
-        run: __tests__/verify-no-unstaged-changes.sh
-        uses: ./
+        run: __tests__/verify-unstaged-changes.sh
