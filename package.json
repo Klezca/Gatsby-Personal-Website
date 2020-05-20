@@ -12,8 +12,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "security-check": "npm audit",
-    "prettier-lint": "prettier --check \"{src,tests}/**/*.js\"",
-    "eslint": "eslint \"{src,tests}/**/*.js\" --ignore-pattern node_modules/",
+    "prettier-lint": "prettier --check \"{src,__tests__}/**/*.js\"",
+    "eslint": "eslint \"{src,__tests__}/**/*.js\" --ignore-pattern node_modules/",
     "lint": "npm run prettier-lint && npm run eslint ",
     "test": "echo 'Test succeed'"
   },
