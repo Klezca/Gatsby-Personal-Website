@@ -1,0 +1,11 @@
+#     - name: Test build
+#       run: npm test
+#     # - name: Publish build
+#     #   uses: netlify/actions/cli@master
+#     #   env:
+#     #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+#     #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+#     #   with:
+#     #     # "gatsby build" creates "public" folder, which is what we are deploying
+#     #     args: deploy --dir=public --prod
+#     #     secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'

@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [10.x, 12.x]
+        node-version: [12.x]
 
     steps:
       # Clone this repo
@@ -30,43 +30,32 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      # Install node dependencies
-      - name: Install node dependencies and run the linter
+    - name: Determine npm cache directory
+      id: npm-cache
+      run: |
+        echo "::set-output name=dir::$(npm config get cache)"
+
+    - name: Restore npm cache
+      uses: actions/cache@v1
+      with:
+        path: ${{ steps.npm-cache.outputs.dir }}
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+      - name: Install node dependencies
         run: npm ci
 
-      # Run the linter
-      - name: Run linter
+      - name: Run the linter
         run: npm run lint
 
-      # Run the build
-      - name: Build
-        run: npm run build
+      - name: Run Build
+        run: npm run build  
 
-      - name: Check path
-        run: pwd
+      - name: Test Build
+        run: npm run test
+      
+      - name: Verify no unstaged changes
+        run: __tests__/verify-no-unstaged-changes.sh
 
-      - name: Upload Build Artifact for Test job
-        uses: actions/upload-artifact@v1
-        with:
-          name: build-artifact
-          path: .
-  # Test:
-  #   # Variable Reference
-  #   strategy:
-  #     matrix:
-  #       runs-on: ubuntu-latest
-  #       node-version: 12.x
-  #   # Running on ubuntu-latest
-  #   runs-on: ${{ matrix.runs-on }}
-  #   steps:
-  #     - name: Test build
-  #       run: npm test
-  #     # - name: Publish build
-  #     #   uses: netlify/actions/cli@master
-  #     #   env:
-  #     #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-  #     #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-  #     #   with:
-  #     #     # "gatsby build" creates "public" folder, which is what we are deploying
-  #     #     args: deploy --dir=public --prod
-  #     #     secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
+
