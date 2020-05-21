@@ -1,4 +1,4 @@
-# Gatsby-Personal-Website [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/Klezca/Gatsby-Personal-Website/blob/master/LICENSE.md)
+# Gatsby-Personal-Website ![Build CI](https://github.com/Klezca/Gatsby-Personal-Website/workflows/Build%20CI/badge.svg) [![GitHub](https://img.shields.io/github/license/klezca/Gatsby-Personal-Website?color=blue)](https://github.com/Klezca/Gatsby-Personal-Website/blob/master/LICENSE.md)
 
 ## Personal Website demo
 
