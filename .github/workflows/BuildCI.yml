@@ -57,5 +57,4 @@ jobs:
 
       - name: Verify no unstaged changes
         run: |
-          chmod +x ./__tests__/verify-unstaged-changes.sh
           ./__tests__/verify-unstaged-changes.sh
