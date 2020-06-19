@@ -1,9 +1,9 @@
-# Gatsby-Personal-Website ![Build CI](https://github.com/Klezca/Gatsby-Personal-Website/workflows/Build%20CI/badge.svg) [![GitHub](https://img.shields.io/github/license/klezca/Gatsby-Personal-Website?color=blue)](https://github.com/Klezca/Gatsby-Personal-Website/blob/master/LICENSE.md)
+# Gatsby-Personal-Website ![Build CI](https://github.com/normanwongcl/Gatsby-Personal-Website/workflows/Build%20CI/badge.svg) [![GitHub](https://img.shields.io/github/license/normanwongcl/Gatsby-Personal-Website?color=blue)](https://github.com/normanwongcl/Gatsby-Personal-Website/blob/master/LICENSE.md)
 
 ## Personal Website demo
 
 <h2 align="center">
-  <img src="https://github.com/klezca/Gatsby-Personal-Website/blob/master/demo/demo.gif" alt="Gatsby Personal Website Demo GIF" width="600px" />
+  <img src="https://github.com/normanwongcl/Gatsby-Personal-Website/blob/master/demo/demo.gif" alt="Gatsby Personal Website Demo GIF" width="600px" />
   <br>
 </h2>
 
@@ -41,7 +41,7 @@ From your command line, first clone Simplefolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/klezca/Gatsby-Personal-Website
+$ git clone https://github.com/normanwongcl/Gatsby-Personal-Website
 
 # Go into the repository
 $ cd Gatsby-Personal-Website
@@ -83,7 +83,7 @@ $ sudo npm install --unsafe-perm=true --allow-root
 Once your server has started, go to this url `http://localhost:8000/` and you will see the website running on a Development Server:
 
 <h2 align="center">
-  <img src="https://github.com/klezca/Gatsby-Personal-Website/blob/master/demo/demo.jpg" alt="Gatsby Personal Website Demo" width="100%">
+  <img src="https://github.com/normanwongcl/Gatsby-Personal-Website/blob/master/demo/demo.jpg" alt="Gatsby Personal Website Demo" width="100%">
 </h2>
 
 ---
@@ -103,7 +103,7 @@ Once your server has started, go to this url `http://localhost:8000/` and you wi
 
 ## Authors
 
-- **Norman Wong** - [https://github.com/Klezca](https://github.com/Klezca)
+- **Norman Wong** - [https://github.com/normanwongcl](https://github.com/normanwongcl)
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
 ## License 📄
