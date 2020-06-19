@@ -71,11 +71,11 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project4.jpg',
-    title: 'Shell scripts installation reference',
+    title: 'Repository to store my installation and config scripts setup',
     info:
       'A collection of installation scripts for me to reference when I need to reinstall something',
-    url: 'https://github.com/normanwongcl/public-scripts',
-    repo: 'https://github.com/normanwongcl/public-scripts', // if no repo, the button will not show up
+    url: 'https://github.com/normanwongcl/dev-workflow-setup',
+    repo: 'https://github.com/normanwongcl/dev-workflow-setup', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
