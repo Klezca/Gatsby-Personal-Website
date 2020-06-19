@@ -14,12 +14,12 @@ const Footer = () => {
         </a>
         <div className="social-links">
           {networks &&
-            networks.map(network => {
+            networks.map((network) => {
               const { id, name, url } = network;
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/Klezca/Gatsby-Personal-Website'}
+                  href={url || 'https://github.com/normanwongcl/Gatsby-Personal-Website'}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -32,7 +32,7 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()}{' '}
-          <a href="https://github.com/klezca" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/normanwongcl" target="_blank" rel="noopener noreferrer">
             Norman Wong Chiew Look
           </a>
           - Template developed by{' '}

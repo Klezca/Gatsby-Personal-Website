@@ -65,8 +65,8 @@ export const projectsData = [
     title: 'Dualstack IPv4/IPv6 VPC network (Work in Progress)',
     info:
       'AWS cloudformation templates for creating a dualstack VPC to support IPv4 and IPv6 network',
-    url: 'https://github.com/Klezca/dualstackVPC-ipv4-ipv6',
-    repo: 'https://github.com/Klezca/dualstackVPC-ipv4-ipv6', // if no repo, the button will not show up
+    url: 'https://github.com/normanwongcl/dualstackVPC-ipv4-ipv6',
+    repo: 'https://github.com/normanwongcl/dualstackVPC-ipv4-ipv6', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -74,8 +74,8 @@ export const projectsData = [
     title: 'Shell scripts installation reference',
     info:
       'A collection of installation scripts for me to reference when I need to reinstall something',
-    url: 'https://github.com/Klezca/public-scripts',
-    repo: 'https://github.com/Klezca/public-scripts', // if no repo, the button will not show up
+    url: 'https://github.com/normanwongcl/public-scripts',
+    repo: 'https://github.com/normanwongcl/public-scripts', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -83,7 +83,7 @@ export const projectsData = [
     title: 'Personal Website',
     info: 'A personal website I developed for myself by using an existing template',
     url: 'https://normanwongcl.netlify.app/',
-    repo: 'https://github.com/Klezca/Gatsby-Personal-Website', // if no repo, the button will not show up
+    repo: 'https://github.com/normanwongcl/Gatsby-Personal-Website', // if no repo, the button will not show up
   },
 ];
 
@@ -105,7 +105,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'github',
-      url: 'https://github.com/Klezca',
+      url: 'https://github.com/normanwongcl',
     },
   ],
 };
