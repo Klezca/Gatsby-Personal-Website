@@ -1,4 +1,4 @@
-# Gatsby-Personal-Website [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/normanwongcl/Gatsby-Personal-Website/blob/master/LICENSE.md)
+# Gatsby-Personal-Website ![Build CI](https://github.com/normanwongcl/Gatsby-Personal-Website/workflows/Build%20CI/badge.svg) [![GitHub](https://img.shields.io/github/license/normanwongcl/Gatsby-Personal-Website?color=blue)](https://github.com/normanwongcl/Gatsby-Personal-Website/blob/master/LICENSE.md)
 
 ## Personal Website demo
 
